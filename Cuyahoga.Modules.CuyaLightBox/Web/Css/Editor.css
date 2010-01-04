@@ -1,0 +1,450 @@
+﻿.AdminContentPad
+{
+    padding: 16px;
+}
+
+.AdminPanel
+{
+    padding: 8px;
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+}
+
+.Panel60
+{
+	position:relative;
+	border: 1px solid #CCCCCC;
+	padding: 8px;
+	min-width: 550px;
+	width: 60%;
+	margin-bottom: 16px;
+}
+
+.Panel40
+{
+	position:relative;
+	border: 1px solid #CCCCCC;
+	padding: 8px;
+	min-width: 550px;
+	width: 40%;
+	margin-bottom: 16px;
+}
+
+.AdminPanel fieldset
+{   
+	border: 1px solid #CCCCCC;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+.AdminPanel .AspNet-GridView table 
+{
+	width: 100%;
+	border: none 0px;
+}
+
+.AdminPanel .AspNet-GridView table th
+{
+	font-size: small;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #CCCCCC;
+	text-align: left;
+	padding: 2px;
+}
+
+.AdminPanel .AspNet-GridView table tbody tr
+{
+	background-color: #FFFFFF;
+	font-size: small;
+	font-weight: normal;
+	color: #666666;
+	text-align: left;
+	padding: 2px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Alternate
+{
+	background-color: #EFEFEF;
+	font-size: small;
+	font-weight: normal;
+	color: #666666;
+	text-align: left;
+	padding: 2px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected
+{
+	background-color: #FF6600;
+	font-size: small;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 2px;
+}
+
+.AdminPanel .AspNet-GridView table tbody tr:hover
+{
+	background-color: #FFFFCC;
+}
+
+.AdminPanel .AspNet-GridView table tbody td
+{
+	font-size: small;
+	font-weight: normal;
+	color: #666666;
+	text-align: left;
+}
+
+
+
+
+
+
+
+.AdminPanel .AspNet-GridView a[id*="btnSelect"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView a[id*="btnSelect"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #FF6600;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnSelect"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #FFFFFF;
+	background-color: #FF6600;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnSelect"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #FFFF66;
+	background-color: #FF6600;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+
+
+.AdminPanel .AspNet-GridView a[id*="btnEdit"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #66CC33;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView a[id*="btnEdit"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #339900;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnEdit"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #66CC33;
+	background-color: #66CC33;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnEdit"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #339900;
+	background-color: #339900;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+
+
+
+.AdminPanel .AspNet-GridView a[id*="btnUpdate"]
+{
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    border: 0px;
+    background-color: #B55BB5;
+    color: #FFFFFF;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView a[id*="btnUpdate"]:hover
+{
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    border: 0px;
+    background-color: #9B379B;
+    color: #FFFFFF;
+    font-size: small;
+    font-weight: bold;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnUpdate"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #B55BB5;
+	background-color: #B55BB5;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnUpdate"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #9B379B;
+	background-color: #9B379B;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+
+
+.AdminPanel .AspNet-GridView a[id*="btnCancel"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #AAAAAA;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView a[id*="btnCancel"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnCancel"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #AAAAAA;
+	background-color: #AAAAAA;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnCancel"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #999999;
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+
+
+
+.AdminPanel .AspNet-GridView a[id*="btnDelete"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView a[id*="btnDelete"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 0px;
+	background-color: #AA0000;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnDelete"]
+{
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #FF0000;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+.AdminPanel .AspNet-GridView .AspNet-GridView-Selected a[id*="btnDelete"]:hover
+{    
+    display: block;
+	width: auto;
+	height: auto;
+	padding: 4px;
+	border: 1px solid #AA0000;
+	background-color: #AA0000;
+	color: #FFFFFF;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+
+
+.AdminPanel fieldset .validator
+{
+    color: #FF0000;
+}
+
+.AdminPanel fieldset legend
+{
+	padding: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #CCCCCC;
+	font-size: small;
+	font-weight: bold;
+	color: #666666;
+}
+
+.AdminPanel fieldset label
+{
+	position:relative;
+	display: inline-block;
+	width: 128px;
+	padding: 6px;
+	font-size: small;
+	font-weight: bold;
+	color: #666666;
+}
+
+.AdminPanel fieldset input[type*="checkbox"]
+{
+    width: 12px;
+    margin-top: 8px;
+    border: 0px;
+}
+
+.AdminPanel .hidden {
+	display: none;
+	visibility: hidden;
+}

@@ -1,0 +1,63 @@
+﻿	/* jQuery lightBox plugin - Gallery style 
+	#gallery {
+		background-color: #444;
+		padding: 10px;
+		width: 520px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #3e3e3e;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	
+	
+	div[id*='_pnlGallery']
+    {
+        border: 1px solid #EAEAEA;
+        background-color: #FAFAFA;
+        padding: 10px;
+        width: 100%;
+    }
+	div[id*='_pnlGallery'] ul { list-style: none; }
+	div[id*='_pnlGallery'] ul li { display: inline; }
+	div[id*='_pnlGallery'] ul img {
+		border: 5px solid #E0E0E0;
+		border-width: 5px 5px 20px;
+	}
+	div[id*='_pnlGallery'] ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	div[id*='_pnlGallery'] ul a:hover
+    {
+        color: #FF6600;
+    }
+	*/
+	
+	.lightbox
+    {
+        border: 1px solid #EAEAEA;
+        background-color: #FAFAFA;
+        padding: 10px;
+        width: 100%;
+    }
+	.lightbox ul { list-style: none; }
+	.lightbox ul li { display: inline; }
+	.lightbox ul img {
+		border: 5px solid #E0E0E0;
+		border-width: 5px 5px 20px;
+		height: inherit;
+	}
+	.lightbox ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}

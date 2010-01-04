@@ -1,0 +1,40 @@
+CuyaLighBox release notes
+===========================================================================
+1.6.0 - 2009-05-12
+===========================================================================
+-LightBoxes are now Node specific: When editing LightBoxes only those created on the node show. Before hand all LightBoxes were listed in the admin.
+-You can now have multiple lighboxes in a node. The js is added via 'RegisterClientScriptBlock()'.
+
+Breaking Change.
+I have Changed the Tables and Mappings for this so be aware. It will not work with previous version.
+
+CuyaLighBox release notes
+===========================================================================
+1.6.0 - 2009-05-11
+===========================================================================
+This is the first release. There are still some features to be added and some  
+cleaning up/refactoring to do. 
+
+CuyaLighBox is a basic module that makes it easy to add LighBoxes to your Cuyahoga site.
+
+Features:
+- Create multiple LighBoxes
+- Upload images to the selected LighBox
+- Automatic thumbnail creation
+- Basic editing of added LightBox and LightBoxImage data
+
+Improvements:
+- None yet! It is the first release :), but some are still on the 'to do' list. Like  
+image file deletion and fixing the registration of the JavaScripts to enable multiple section instances in one node and some validation maybe. Any ideas for improvements? - just email.
+
+Bugfixes:
+- send bug finds to john@novocreations.com or post on the forum
+
+This was actually built using a slightly customised (but still core and module compatible) and then briefly tested with Cuyahoga 1.6.
+
+
+Known Issues:
+
+Cuyahoga 1.6
+
+There was an issue with the registration of JavaScripts. Inside the 'BaseModuleControl.cs' the method 'RegisterJavascript(string key, string absoluteJavaScriptPath)' seemed to be named 'RegisterJavaScript' Capital S in script. So I changed it. Since I added the register javascript and css methods and then submitted them for inclusion in the build there was a slight difference. I will amend my version to the released version.
